@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: rgb(36, 99, 182);
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section main {
+    width: 40%;
+    height: auto;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+section main ul {
+    margin: 10px 0px 10px 18px;
+}
+
+section main form {
+    position: inherit;
+    height: 100%;
+}
+
+section main form label {
+    display: block;
+    margin: 10px 0px;
+}
+
+section main form input {
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+
+section main form button {
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(2, 134, 112);
+    color: #FFF;
+    border: 0px;
+    cursor: pointer;
+}
+
+section main form button:hover {
+    background-color: rgb(3, 156, 131);
+}
+
+.error-text {
+    margin: 5px 0px;
+    font-size: 0.8rem;
+    color: rgb(218, 0, 0);
+}

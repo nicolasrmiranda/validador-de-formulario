@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section>
+        <main>
+            <h1>Formulario de cadastro</h1>
+            <ul>
+                <li>Nenhum campo pode estar vazio</li>
+                <li>Usuário só poderá conter letras e/ou números</li>
+                <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+                <li>Senha precisa ter entre 6 e 12 caracteres</li>
+            </ul>
+            <form action="/" method="POST" class="formulario">
+                <Label>nome</Label>
+                <input type="text" name="nome" class="nome valid">
+                <Label>sobrenome</Label>
+                <input type="text" class="sobrenome valid">
+                <Label>CPF</Label>
+                <input type="text" class="cpf valid">
+                <Label>usuario</Label>
+                <input type="text" class="usuario valid">
+                <Label>senha</Label>
+                <input type="password" class="senha valid">
+                <Label>repetir senha</Label>
+                <input type="password" class="repetir-senha valid">
+                <button type="submit">Enviar</button>
+            </form>
+        </main>
+
+        <footer style="color: #fff;">Desenvolvido por: Nícolas Ribeiro</footer>
+    </section>
+    
+    <script src="assets/js/ValidaCPF.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
